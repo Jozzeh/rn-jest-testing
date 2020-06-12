@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderRadius": 2,
+        "borderWidth": 1.5,
+        "justifyContent": "center",
+      },
+      Object {
+        "height": 48,
+      },
+      Object {
+        "backgroundColor": "#005BAA",
+        "borderColor": "#005BAA",
+      },
+    ]
+  }
+  testID="buttonTester"
+>
+  <Text
+    style={
+      Array [
+        undefined,
+        undefined,
+        Object {
+          "color": "#fff",
+        },
+      ]
+    }
+    testID="buttonText"
+  >
+    BUTTON
+  </Text>
+</View>
+`;
