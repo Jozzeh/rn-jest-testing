@@ -1,7 +1,7 @@
 import {testTypes} from '../../../src/redux/actions/testActions';
 import TestReducer from '../../../src/redux/reducers/testReducer';
 
-describe('todos reducer', () => {
+describe('test reducer', () => {
   it('should return the initial state', () => {
     expect(TestReducer(undefined, {})).toEqual({
       count: 0,
